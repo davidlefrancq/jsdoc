@@ -1,0 +1,15 @@
+{
+  "name": "jsdoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node index.js",
+    "generate:docs": "jsdoc -c jsdoc.json"
+  },
+  "dependencies": {
+    "docdash": "^1.2.0",
+    "jsdoc": "^3.6.7"
+  }
+}
